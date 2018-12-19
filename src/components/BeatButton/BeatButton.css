@@ -1,0 +1,29 @@
+/* #3e5cf9 */
+
+.main-button {
+    width: 200px;
+    height: 70px;
+    border: 0;
+    background-color: #1b1b1b;
+    margin: 10px 10px 17px 10px;
+    box-shadow: 0 9px #353535;
+}
+
+.main-button:active {
+    background-color: #2f2f2f;
+    transform: translateY(4px);
+    box-shadow: 0 5px #353535;
+}
+
+.main-button:hover {
+    background-color: #2f2f2f;
+}
+
+.main-button > span {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.main-button:focus {
+    outline: 0;
+}
