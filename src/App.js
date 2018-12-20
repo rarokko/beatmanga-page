@@ -19,7 +19,7 @@ class App extends Component {
           </nav>
 
           <Route path="/" exact component={Index} />
-          <Route path="/download/" exact component={Download} />
+          <Route path="/download/" component={Download} />
         </div>
       </Router>
     );

@@ -17,7 +17,7 @@ class Index extends Component {
                         <Link to="/download">
                             <BeatButton text="Download now" onClick={this._downloadApk} />
                         </Link>
-                        <span className="subtitle">Currently only for android <img className="android-icon" src={AndroidIcon} alt="android icon"/></span>
+                        {/* <span className="subtitle">Currently only for android <img className="android-icon" src={AndroidIcon} alt="android icon"/></span> */}
                     </div>
                 </div>
             </div>

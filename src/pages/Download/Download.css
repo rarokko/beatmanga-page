@@ -19,25 +19,35 @@
     align-items: center;
     flex-direction: column;
     z-index: 1;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
-.title-bold {
-    color: #ffffff;
+.title-bold-download {
+    color: #1b1b1b;
     font-size: 50px;
     font-weight: bold;
     margin: 10px;
+    text-align: center;
 }
 
-.subtitle {
+.subtitle-download {
     font-size: 12px;
     padding-left: 5px;
-    color: gray;
+    color: #1b1b1b;
+    text-align: center;
 }
 
 .so-icon {
     width: 100px;
     vertical-align: middle;
     margin-left: 5px;
+}
+
+.number-index {
+    font-size: 30px;
+    vertical-align: middle;
+    padding: 7px;
 }
 
 @media only screen and (max-width: 520px) {
